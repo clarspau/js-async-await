@@ -2,7 +2,7 @@
 let favNum = 8;
 
 // Base URL for the Numbers API
-let baseURL = "http://numbersapi.com";
+let baseURL = "https://numbersapi.com";
 
 // Function to get facts for a single favorite number (part 1)
 async function getFacts1() {
