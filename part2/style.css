@@ -1,0 +1,37 @@
+body {
+     text-align: center;
+     background-color: rgb(33, 183, 73);
+}
+
+button {
+     padding: 15px;
+     background-color: rgb(4, 90, 52);
+     color: white;
+     border-radius: 8px;
+     border: none;
+     display: none;
+     margin: 0 auto;
+     margin-top: 20px;
+}
+
+button:hover {
+     cursor: pointer;
+     background-color: #8de497;
+     color: green;
+}
+
+button:active,
+button:focus {
+     outline: none;
+}
+
+#card-area {
+     margin-block-start: 150px;
+}
+
+#card-area > img {
+     position: absolute;
+     inset-inline-start: 0;
+     inset-inline-end: 0;
+     margin: auto;
+}
